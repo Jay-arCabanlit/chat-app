@@ -1,0 +1,30 @@
+/* ChatWindow.css */
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-contact-name {
+  margin: 0;
+}
+
+.chat-contact-status {
+  margin: 0;
+  font-size: 14px;
+}
+
+.chat-messages-container {
+  flex: 1;
+  overflow-y: auto;
+}
